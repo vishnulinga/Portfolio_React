@@ -44,7 +44,7 @@ const TimeLine = () => {
         <Events>
 {/* Project: Todo List With React */}
  <ImageEvent
-            date="01/10/2020"
+            date="10/10/2020"
             className="text-center"
             text="React ToDo App"
             src={L_ReactToDoList}
@@ -137,7 +137,7 @@ const TimeLine = () => {
 
 {/* Project: TicTacToe with React */}
 <ImageEvent
-            date="16/09/2020"
+            date="04/10/2020"
             className="text-center"
             text="Tic-Tac-Toe using React"
             src={L_TicTacToe}
@@ -217,7 +217,7 @@ const TimeLine = () => {
 
  {/* Project: URL Shortener*/}
  <ImageEvent
-            date="19/07/2020"
+            date="28/09/2020"
             className="text-center"
             text="URL Shortener"
             src={L_URLShortener}
@@ -332,7 +332,7 @@ const TimeLine = () => {
           </ImageEvent>
  {/* Project: Login ad Signup using React*/}
  <ImageEvent
-            date="19/07/2020"
+            date="24/09/2020"
             className="text-center"
             text="Login & Signup using React"
             src={L_LoginReact}
@@ -449,7 +449,7 @@ const TimeLine = () => {
 
   {/* Project: TV & Remote*/}
   <ImageEvent
-            date="19/07/2020"
+            date="17/09/2020"
             className="text-center"
             text="TV simulator"
             src={L_TV}
@@ -547,7 +547,7 @@ const TimeLine = () => {
         
  {/* Project: Quiz*/}
  <ImageEvent
-            date="19/07/2020"
+            date="13/09/2020"
             className="text-center"
             text="Quiz"
             src={L_Quiz}
@@ -643,7 +643,7 @@ const TimeLine = () => {
         
  {/* Project: Cricet Game*/}
  <ImageEvent
-            date="19/07/2020"
+            date="04/09/2020"
             className="text-center"
             text="Cricket"
             src={L_Cricket}
@@ -740,7 +740,7 @@ const TimeLine = () => {
         
 {/* Project: Students and Mentors Assignment*/}
  <ImageEvent
-            date="19/07/2020"
+            date="26/08/2020"
             className="text-center"
             text="Students and Mentors Mapping"
             src={L_StudentsMentorsAssignment}
@@ -856,7 +856,7 @@ const TimeLine = () => {
         
 {/* Project: Calculator*/}
 <ImageEvent
-            date="19/07/2020"
+            date="18/08/2020"
             className="text-center"
             text="Calculator"
             src={L_Calculator}
@@ -953,7 +953,7 @@ const TimeLine = () => {
        
  {/* Project: Spotify Clone*/}
  <ImageEvent
-            date="19/07/2020"
+            date="13/08/2020"
             className="text-center"
             text="Spotify Clone"
             src={L_SpotifyClone}
@@ -1050,7 +1050,7 @@ const TimeLine = () => {
 
 {/* Project: CRUD React */}
  <ImageEvent
-            date="01/10/2020"
+            date="07/08/2020"
             className="text-center"
             text="CRUD Demo using React"
             src={L_CRUDReact}
@@ -1164,7 +1164,7 @@ const TimeLine = () => {
 
  {/* Project: NewsPaper*/}
  <ImageEvent
-            date="19/07/2020"
+            date="03/08/2020"
             className="text-center"
             text="News Paper"
             src={L_NewsPaper}
@@ -1251,7 +1251,7 @@ const TimeLine = () => {
        
         {/* Project: Banner*/}
  <ImageEvent
-            date="19/07/2020"
+            date="29/07/2020"
             className="text-center"
             text="Banner"
             src={L_Banner}
@@ -1338,7 +1338,7 @@ const TimeLine = () => {
         
          {/* Project: News App*/}
  <ImageEvent
-            date="19/07/2020"
+            date="25/07/2020"
             className="text-center"
             text="NEWS App"
             src={L_NewsApp}
@@ -1425,7 +1425,7 @@ const TimeLine = () => {
         
          {/* Project: Brochure*/}
  <ImageEvent
-            date="19/07/2020"
+            date="23/07/2020"
             className="text-center"
             text="Brochure"
             src={L_Brochure}

@@ -7,7 +7,7 @@ import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify.png";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
+import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.png";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.png";
