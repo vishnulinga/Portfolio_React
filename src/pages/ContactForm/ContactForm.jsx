@@ -35,13 +35,7 @@ const ContactForm = () => {
               </a>
             </div>
             
-            <div className="m-2">
-              <a href="https://twitter.com/akjha96" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-info" title="Tweets are welcomed!">
-                  <i className="fab fa-twitter"></i> Twitter
-                </Button>
-              </a>
-            </div>
+            
             <div className="m-2">
               <a href="https://www.facebook.com/vishnu.linga.7/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Say hello on FB">

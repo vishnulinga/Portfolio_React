@@ -15,7 +15,7 @@ const NavigationBar=()=>{
     <Nav className="ml-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link href="#resume">Resume</Nav.Link>
+      <Nav.Link href="https://drive.google.com/file/d/13MN_ciy04nYllofRhiW9y21YESCRn0lY/view?usp=sharing" target="_blank">Resume</Nav.Link>
       <Nav.Link href="#projects">Projects</Nav.Link>
       <Nav.Link href="#experience">Experience</Nav.Link>
       <Nav.Link href="#contact">Contact</Nav.Link>

@@ -57,9 +57,9 @@ const App=()=> {
 
       <div>
             <Container className="container-box rounded">
-              <Slide duration={500}>
+              
                 <TimeLine />
-              </Slide>
+              
             </Container>
           </div>
 
