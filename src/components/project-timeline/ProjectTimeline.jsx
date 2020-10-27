@@ -19,10 +19,12 @@ import Accordion from "react-bootstrap/Accordion";
  import L_NewsApp from "../../assets/img/projects/NewsApp.png";
  import L_Brochure from "../../assets/img/projects/Brochure.png";
 import L_URLShortener from "../../assets/img/projects/URLShortener.png";
+import L_Tiktok from "../../assets/img/projects/Tiktok.png";
 
 
 
 // skills
+import L_MaterialUI from "../../assets/img/skills/MaterialUI.png";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
@@ -32,6 +34,7 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.jpg";
+import L_Firebase from "../../assets/img/skills/Firebase.png";
 
 
 import "./ProjectTimelineStyle.css";
@@ -42,6 +45,124 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+{/* Project: Tiktok With React */}
+<ImageEvent
+            date="21/10/2020"
+            className="text-center"
+            text="Tiktok"
+            src={L_Tiktok}
+            alt="Tiktok"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is the clone of famous Tik-tok app implemented in browser with mobile app user interface
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Can add videos and description</li>
+                          <li>Can like videos</li>
+                          <li>Can delete videos</li>
+                          <li>Videos snaps into place when scrolled</li>
+                          <p>Demo Username - vishnu<br></br>
+                            Demo Password- 12345
+                          </p>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MaterialUI}
+                                alt="MaterialUI"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_BOOTSTRAP}
+                                alt="React_bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React_Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_Firebase}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                          
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://tik-tok-clone-42969.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/vishnulinga/Tiktok_clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+
 {/* Project: Todo List With React */}
  <ImageEvent
             date="10/10/2020"

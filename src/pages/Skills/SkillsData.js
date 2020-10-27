@@ -19,6 +19,7 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_C from "../../assets/img/skills/C.png";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_Firebase from "../../assets/img/skills/Firebase.png"
 
 export const skills = {
   frontend: [
@@ -126,6 +127,12 @@ export const skills = {
       imgAltText: "AWS",
       imgSrc: L_AWS,
       skillName: "AWS",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_Firebase,
+      skillName: "Firebase",
     }
   ],
   programmingLanguages: [
@@ -167,6 +174,12 @@ export const skills = {
       imgSrc: L_MYSQL,
       skillName: "MySQL",
     },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_Firebase,
+      skillName: "Firebase",
+    }
     
   ],
   versionControl: [
